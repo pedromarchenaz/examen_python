@@ -19,7 +19,34 @@ if nkilo >= 10:
 
 
 # Ejercicio 2
-200
+vco = float(input('Digite el valor total de la compra: $'))
+clave = input('Digite la clave: ')
+
+
+if clave == '010':
+    d = vco * 0.20
+    print('Tendra un descuento del 20%')
+    to = vco - d
+    print(f'El valor total a pagar es : ${to:,} ')
+
+if clave == '020':
+    d = vco * 0.40
+    print('Tendra un descuento del 40%')
+    to = vco - d
+    print(f'El valor total a pagar es : ${to:,} ')
+
+if clave == '030':
+    d = vco * 0.55
+    print('Tendra un descuento del 55%')
+    to = vco - d
+    print(f'El valor total a pagar es : ${to:,} ')
+
+if clave == '040':
+    d = vco * 0.75
+    print('Tendra un descuento del 75%')
+    to = vco - d
+    print(f'El valor total a pagar es : ${to:,} ')
+
 
 # Ejercicio 3
 marcaap = input('Digite la marca del aparato: ')
